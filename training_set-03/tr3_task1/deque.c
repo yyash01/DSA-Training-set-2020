@@ -17,7 +17,7 @@ void init() {
 void joinL(int d) {
 	printf("Going to join %d on left\n", d);
 	struct node *new = malloc(sizeof(struct node));
-	assert(new!=NULL); // Stop if problem
+	assert(new!=NULL); // Stop if memory is not allocated
 	
 	new->data = d;
         assert(new->data >=1); //-------------------This assert is add by me (YASH JAIN)--------//
