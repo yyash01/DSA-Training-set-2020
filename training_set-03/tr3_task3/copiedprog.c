@@ -3,7 +3,7 @@ NAME - YASH JAIN
 ROLL.NO = 19UCS197
 BATCH - CP(LAB-03) WEDNESDAY AFTERNOON
 */
-#include "deque.h"
+#include "deque1.h"
 
 /* storage allocated here */
 struct node hdr;
@@ -14,7 +14,7 @@ of all member nodes of deque.
 Left and right of header is not symmetric to
 those of member nodes */
 void init() {
-	// unused 
+	// unued 
 	hdr.data = 0; 
 	hdr.nextL = hdr.nextR = NULL;
 }
